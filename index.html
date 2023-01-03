@@ -1,0 +1,45 @@
+<!--Design to consume the Trello API-->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Trello API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trello API</h1>
+    <section id="search-section">
+        <div class="search-panel">
+            <form>
+                <ul>
+                    <li>
+                        <label for="Board name">Board name:</label>
+                        <input type="text" id="Board" name="Board_name" pattern="[A-Za-z0-9]{5,40}">
+                    </li>
+                    <li>
+                        <label for="List name">List name:</label>
+                        <input type="text" id="List" name="List_name" pattern="[A-Za-z0-9]{5,40}">
+                    </li>
+                    <li>
+                        <label for="Card name">Card name:</label>
+                        <input type="text" id="Card" name="Card_name" pattern="[A-Za-z0-9]{5,40}">
+                    </li>
+                </ul>
+                <button id="create" type="submit">Create</button>
+                <p id="sucess board"></p>
+                <p id="sucess list"></p>
+            </form>
+        </div>
+        <div class="search-panel">
+            <form>
+                <ul>
+                    <li>
+                        <input type="text" id="Board" name="Board_name">
+                        <button id="search" type="button">Search</button>
+                    </li>
+            </form>
+        </div>
+    </section>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

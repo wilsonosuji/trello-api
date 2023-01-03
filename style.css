@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+#search-section {
+    border: black 2px solid;
+}
+.search-panel {
+    background-color: #b3ff66;
+    border: black 2px solid;
+}
